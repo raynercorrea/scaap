@@ -20,10 +20,5 @@
       		<version>3.8.1</version>
       		<scope>test</scope>
     	</dependency>
-    	<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>scaap-model</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 </project>

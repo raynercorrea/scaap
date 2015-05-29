@@ -6,7 +6,7 @@
 			 					 
 <persistence-unit name="scaap" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>br.com.scaap.model.entity.Usuario</class>
+        <class>br.com.scaap.jpa.entity.Usuario</class>
         <properties>
         	<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
       		<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/scaap" />
