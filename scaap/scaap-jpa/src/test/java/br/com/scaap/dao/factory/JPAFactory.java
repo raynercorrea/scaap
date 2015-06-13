@@ -16,6 +16,8 @@ public class JPAFactory extends TestCase {
 		entityManager.persist(user);
 		entityManager.getTransaction().commit();
 		JPAUtil.closeEntityManagerFactory();
+		
+//		testando merge
 	}
 
 }
