@@ -3,6 +3,8 @@ package br.com.scaap.jpa.entity;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import br.com.scaap.jpa.base.entity.BaseEntity;
 
@@ -16,7 +18,6 @@ public class Usuario extends BaseEntity {
 	private String complemento;
 	
 	private String cep;
-	private String dsafasdfasdsdaf;
 	
 	private String fax;
 	
@@ -30,6 +31,7 @@ public class Usuario extends BaseEntity {
 	
 	private String nacionalidade;
 	
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date dataCadastro;
 	
 	private String identificacao;
