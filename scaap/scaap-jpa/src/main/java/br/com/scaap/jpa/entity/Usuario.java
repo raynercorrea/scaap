@@ -16,6 +16,7 @@ public class Usuario extends BaseEntity {
 	private String complemento;
 	
 	private String cep;
+	private String dsafasdfasdsdaf;
 	
 	private String fax;
 	
