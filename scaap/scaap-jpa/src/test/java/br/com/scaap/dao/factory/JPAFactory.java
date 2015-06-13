@@ -11,7 +11,7 @@ public class JPAFactory extends TestCase {
 	public void testFactory(){
 		EntityManager entityManager = JPAUtil.createEntityManager();
 		
-		Usuario user = new Usuario("rayner", "12345");
+		Usuario user = new Usuario();
 		entityManager.getTransaction().begin();
 		entityManager.persist(user);
 		entityManager.getTransaction().commit();
