@@ -1,7 +1,10 @@
 package br.com.scaap.jpa.entity;
 
+import javax.persistence.Entity;
+
 import br.com.scaap.jpa.base.entity.BaseEntity;
 
+@Entity
 public class Estado extends BaseEntity{
 
 	/**
